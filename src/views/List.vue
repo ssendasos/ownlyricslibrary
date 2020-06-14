@@ -37,7 +37,7 @@
         </tr>
       </tbody>
     </table>
-    <p v-else>Текстов пока нет!</p>
+    <p v-else class="empty-list">Текстов пока нет!</p>
   </main>
 </template>
 
@@ -74,6 +74,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
+
+  
 
   .artist-name button,
   .song-name button,
@@ -140,11 +142,14 @@ export default {
   }
   th {
     font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   
 
   table {
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: 50px;
   }
 
   .date {

@@ -91,6 +91,9 @@
   h1 {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 70px;
   }
 
   .artist-name,
@@ -147,6 +150,8 @@
   }
   th {
     font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   button {
     border: none;
@@ -161,7 +166,7 @@
 
   table {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 120px;
   }
 
   @media (max-width: 1000px) {
